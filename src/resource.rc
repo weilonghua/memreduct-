@@ -381,3 +381,19 @@ FILEFLAGS		VS_FF_PATCHED | VS_FF_PRERELEASE
 		VALUE "Translation", 0x0409, 1252
 	}
 }
+
+STRINGTABLE
+BEGIN
+    IDS_SAFE_UPDATE_AVAILABLE "Version %s is available. Open the release page?\n\nUpdates are installed manually. Verify the published signature before installation."
+    IDS_SAFE_UPDATE_ERROR "Could not check updates (0x%08X). No files were installed."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SAFE_CLEAN_DONE "Cleanup completed."
+    IDS_SAFE_CLEAN_PARTIAL "Cleanup partially completed."
+    IDS_SAFE_CLEAN_FAILED "No cleanup operations succeeded."
+    IDS_SAFE_CLEAN_COUNTS "Succeeded: %u; failed: %u; skipped: %u."
+    IDS_SAFE_CLEAN_OBSERVED "Observed available-memory change: %s; duration: %llu ms."
+    IDS_SAFE_CLEAN_UNAVAILABLE "Memory change could not be measured."
+END

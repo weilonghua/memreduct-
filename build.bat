@@ -1,6 +1,5 @@
 @echo off
 
-cd ..\builder
-call build memreduct 3.5.3 "Mem Reduct"
-
-pause
+setlocal
+python "%~dp0tools\build.py" %*
+exit /b %errorlevel%

@@ -1,0 +1,19 @@
+name: Windows build and policy tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2025
+    strategy:
+      matrix:
+        platform: [Win32, x64, ARM64]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Build application
+        run: python tools/build.py --platform ${{ matrix.platform }} --toolset v143
+      - name: Run safe native tests
+        if: matrix.platform == 'x64'
+        run: python tools/build.py --tests --toolset v143

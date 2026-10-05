@@ -1,6 +1,4 @@
 @echo off
-
-cd ..\builder
-call build_locale memreduct
-
-pause
+setlocal
+python "%~dp0tools\build_locale.py"
+exit /b %errorlevel%

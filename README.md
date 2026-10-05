@@ -1,5 +1,10 @@
 <h1 align="center">Mem Reduct</h1>
 
+This fork includes a check-only updater, pinned build dependencies and background
+cleanup with explicit operation results. See [DEPENDENCIES.md](DEPENDENCIES.md)
+for build instructions and behavior changes. Local builds are unsigned; the GPG
+signature information below describes the original author's official releases.
+
 <p align="center">
 	<a href="https://github.com/henrypp/memreduct/releases"><img src="https://img.shields.io/github/v/release/henrypp/memreduct?style=flat-square&include_prereleases&label=version" /></a>
 	<a href="https://github.com/henrypp/memreduct/releases"><img src="https://img.shields.io/github/downloads/henrypp/memreduct/total.svg?style=flat-square" /></a>

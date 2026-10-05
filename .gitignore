@@ -39,3 +39,5 @@ desktop.ini
 *.tlog
 
 *PVS-Studio*
+
+artifacts/

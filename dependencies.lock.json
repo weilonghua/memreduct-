@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "dependencies": [
+    {
+      "path": "third_party/routine",
+      "source": "https://github.com/henrypp/routine.git",
+      "commit": "1acd9394395b7cee9e1ea7b985fb54e76be86b11",
+      "upstream_sha256": {
+        "LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+        "README.md": "926da35d210b920c6ddb58c52560c3357fc8312b55de3f7be7c5d55a5388a11d",
+        "src/ntapi.h": "37ec3e98e5a14b0a2173eef53a1603c26a43f7364dabd2538620b986491b5564",
+        "src/ntrtl.h": "292838f0d2d7e1e5ff0fcfd3b73b9c1b2888b323edccfd729a7667980ad1b604",
+        "src/rapp.c": "6822949efdb566a2913615c39ec059978c385e0615b84ba7d343bf8fdd12a6a4",
+        "src/rapp.h": "f52514339415da260fe09ce24e046128444b7753585677304c5bb248bbdb0c7b",
+        "src/rconfig.h": "fdf78efffd97daada891b687d46774879aaaa31b47775354db92d23db7797009",
+        "src/routine.c": "b94d44652c4d82cddbebd284c0e572ef950718b19e0b519071925254998ba588",
+        "src/routine.h": "5e74cd9191429d78dce50699cb54e5c17d99ca752c8e6a87aba5878e1c163495",
+        "src/rtypes.h": "3a21db7c36eab412473a33e5113ce5d75e3242aa605de3b4a7eda4773096011b"
+      },
+      "local_changes": "See DEPENDENCIES.md and Git diff for compatibility and security changes.",
+      "scope": "Required sources, LICENSE and README only; original images and repository templates omitted."
+    }
+  ]
+}
