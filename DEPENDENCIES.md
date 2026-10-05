@@ -42,7 +42,7 @@ The CI workflow builds all three architectures and runs the x64 policy tests.
 
 ## Update policy and cleanup behavior
 
-This fork checks the fixed manifest and release URLs in `src/app.h`. Remote
+This build checks the fixed manifest and release URLs in `src/app.h`. Remote
 metadata supplies only a bounded numeric version. HTTPS certificate failures,
 redirects, invalid metadata, and failed reads abort the check. A successful
 check may open the fixed release page after confirmation. It never downloads

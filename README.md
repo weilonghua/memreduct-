@@ -1,6 +1,6 @@
 <h1 align="center">Mem Reduct</h1>
 
-This fork includes a check-only updater, pinned build dependencies and background
+Update checks are check-only. Pinned build dependencies and background
 cleanup with explicit operation results. See [DEPENDENCIES.md](DEPENDENCIES.md)
 for build instructions and behavior changes. Local builds are unsigned; the GPG
 signature information below describes the original author's official releases.
